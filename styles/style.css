@@ -91,3 +91,37 @@ li>a {
     }
     
 }
+/* Main style */
+
+main{
+    border: 2px solid saddlebrown;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.team-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.text-feature{
+    color: #FF900E;
+}
+.team-description{
+    color: #727272;
+}
