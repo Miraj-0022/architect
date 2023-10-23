@@ -1,7 +1,74 @@
+/* Sheared styles */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Open+Sans:ital,wght@0,300;0,600;1,400&family=Work+Sans:wght@400;600;700;800&display=swap');
 
 * {
     font-family: 'EB Garamond', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    color: #fff;
+    background: #FF900E;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: 0;
+}
+
+/* header styles */
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul>li {
+    list-style: none;
+    margin-right: 1rem;
+    font-weight: 500;
+}
+
+li>a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* Banner styles */
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+
+}
+
+.banner-description {
+    color: #727272;
+}
+
+.banner-img {
+    width: 100%;
+    margin-top: 20px;
 }
